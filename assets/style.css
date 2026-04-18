@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'BaiJamjuree';
+    src: url('font/BaiJamjuree-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BaiJamjuree';
+    src: url('font/BaiJamjuree-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: 'BaiJamjuree', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'BaiJamjuree', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: #1E1B19;
+    color: #fff;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 70vh;
+}
+
+/* ПЕРВЫЙ БЛОК */
+.title {
+    font-size: 24px;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    background-color: #29221D;
+    height: 100%;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 25px;
+}
+
+.btn_menu_home {
+    background-color: #FE6C00;
+    border-radius: 8px;
+}
+
+.btn_menu img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn_menu:not(.btn_menu_home):hover {
+    background-color: rgba(254, 108, 0, 0.2);
+}
+
+/* ВТОРОЙ БЛОК */
+.home {
+    background-color: #1E1611;
+    height: 100%;
+    padding: 20px 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.poisk {
+
+}
+
+.img_poisk {
+    width: 20px;
+    height: 100%;
+}
