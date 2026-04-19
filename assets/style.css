@@ -15,6 +15,7 @@
 p {
     font-family: 'BaiJamjuree', sans-serif;
     font-weight: 400;
+    margin: 0;
 }
 
 h1 {
@@ -95,7 +96,7 @@ body {
 .home {
     background-color: #1E1611;
     height: 100%;
-    padding: 20px 40px;
+    padding: 30px 70px;
 }
 
 .header {
@@ -104,11 +105,78 @@ body {
     justify-content: space-between;
 }
 
-.poisk {
+.title_header {
+    font-size: 24px;
+}
 
+.poisk {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 
 .img_poisk {
-    width: 20px;
+    width: 23px;
     height: 100%;
+}
+
+.ellipce {
+    position: absolute;
+    padding-left: 58.5px;
+    padding-top: 17px;
+    
+}
+
+.ellipce_img {
+    width: 12px;
+}
+
+/* main */
+.title_cards {
+    color: #A8A5A6;
+}
+
+.cards {
+    background-color: #29221D;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.title_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.balance {
+    border-radius: 12px;
+    padding: 10px 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    background: linear-gradient(145deg, #423B37 0%, #3B2B1E 55%, #FEA767 100%);
+}
+
+.summa {
+    display: flex;
+    flex-direction: column;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_cards {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
