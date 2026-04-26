@@ -23,6 +23,10 @@ h1 {
     font-weight: 700;
 }
 
+.grow_text {
+    color: #A8A5A6;
+}
+
 body {
     background-color: #1E1B19;
     color: #fff;
@@ -132,11 +136,7 @@ body {
 }
 
 /* main */
-.title_cards {
-    color: #A8A5A6;
-}
-
-.cards {
+.cards_one {
     background-color: #29221D;
     padding: 10px 20px;
     border-radius: 12px;
