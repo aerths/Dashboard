@@ -140,6 +140,9 @@ body {
     background-color: #29221D;
     padding: 10px 20px;
     border-radius: 12px;
+    width: 100%;
+    min-height: 122px;
+    
 }
 
 .title_cards {
@@ -173,6 +176,7 @@ body {
 .img_cards {
     display: flex;
     justify-content: center;
+    padding-right: 24px;
 }
 
 .footer {
@@ -184,3 +188,31 @@ body {
 .all_tran {
     background-color: #29221D;
 }
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 48px;
+}
+
+.img_prices{
+    height: 13px;
+}
+
+.padd_card{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+}
+
+.title_cards{
+    padding-bottom: 8px;
+}
+
+.surname_pr{
+    padding-bottom: 16px;
+}
+
